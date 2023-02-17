@@ -1,0 +1,102 @@
+/* Estas condições @media com todos seus argumentos são para criar designs responsivos 
+adaptaveis à tela do dispositivo segundo a sua resolução*/
+*
+{
+    margin:0;
+    padding:0;
+    
+}
+
+@media screen and (min-width: 900px) {
+    /* Inicio do design responsivo para PC, Notebook, e telas maiores*/
+ body {
+
+      background-color: black;
+      opacity: 100%;
+      box-sizing: border-box;
+      height: 100%;
+    
+    }
+
+    
+#logo
+{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+}
+#img{ 
+   
+    width: 200px;
+    
+    }
+    #menu
+    {
+        background-image: linear-gradient(90deg, #240000 20%, #790909 50%, #000000 100%);
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        
+    }
+.li
+{
+    font-weight: bold;
+    display: inline-block;
+    list-style: none;
+    padding-left: 10px; 
+    padding-block: 20px;
+    padding-inline: 30px;
+
+}
+.links
+{
+    color: rgb(255, 255, 255);
+}
+ #bgvideo
+{
+    opacity: 50%;
+    position: absolute;
+    background-size: cover;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    z-index: -3;
+    border: none;
+    } 
+    #principal-info
+    {
+        color: whitesmoke;
+        font-family: 'Poppins', sans-serif;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 5%;
+    }
+    p
+    {
+        padding-top: 2%;
+    }
+    #trasdata-img
+    {
+        position: absolute;
+        left: 550px;
+        top: 400px;
+        width: 200px;
+        border-radius: 10%;
+    }
+    #interlined
+    {
+        padding-top: 10%;
+    }
+     #footer-maindivisions
+     {
+        padding-bottom: 10%; 
+     }
+    #footer
+    {
+        background-image: linear-gradient(90deg, #240000 20%, #790909 50%, #000000 100%);
+    }
+ /* Fim do design responsivo para PC, Notebook, e telas maiores*/
+}
